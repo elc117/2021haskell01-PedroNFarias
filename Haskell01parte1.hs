@@ -1,4 +1,20 @@
+-- Prática 01 de Haskell - Parte 1
+-- Nome: Pedro Farias
 --Soma dos quadrados de um número--
+
+module Haskell01parte1
+(
+htmlItem,
+sumSquares,
+circleArea,
+age,
+isElderly,
+startsWithA,
+isVerb,
+isVowel2,
+hasEqHeads,
+)where
+
 sumSquares :: Int -> Int -> Int
 sumSquares x y = x*y + x*y
 
