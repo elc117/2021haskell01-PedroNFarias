@@ -13,6 +13,7 @@ startsWithA,
 isVerb,
 isVowel2,
 hasEqHeads,
+isLongWord
 )where
 
 sumSquares :: Int -> Int -> Int
@@ -53,3 +54,7 @@ hasEqHeads list1 list2 = if head list1 == head list2 then True else False
 --Recebe um caracter e verifica se é uma vogal--
 isVowel2 :: Char -> Bool
 isVowel2 char = elem char ['a','e','i','o','u','A','E','I','O','U']
+
+--Verifica se uma palavra é longa > 10--
+isLongWord :: String -> Bool -- isso é o mesmo que: isLongWord :: [Char] -> Bool
+isLongWord s = length s > 10
